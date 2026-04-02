@@ -1,4 +1,4 @@
-# Yasser Next.js Dashboard
+# Next.js Startup project
 
 A modern, full-stack dashboard application built with Next.js, featuring authentication, analytics, and a responsive UI. This project serves as a startup template for building scalable web applications with user management and data visualization.
 
@@ -53,7 +53,7 @@ Before you begin, ensure you have the following installed:
    ```env
    # Database
    DATABASE_URL="file:./dev.db"  # For SQLite (development)
-   # DATABASE_URL="postgresql://username:password@localhost:5432/yasser_db"  # For PostgreSQL
+   # DATABASE_URL="postgresql://username:password@localhost:5432/name_db"  # For PostgreSQL
 
    # NextAuth
    NEXTAUTH_SECRET="your-secret-key-here"
