@@ -28,7 +28,6 @@ export default {
       async authorize(credentials) {
         const validatedFields = loginSchema.safeParse(credentials);
 
-        console.log("Validated fields:", validatedFields.data);
         if (validatedFields.success) {
           let user: dbUser = null;
           const { password, email } = validatedFields.data;
